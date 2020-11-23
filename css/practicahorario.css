@@ -1,0 +1,19 @@
+table
+{
+width: 100%; 
+}
+table,td,th{
+    border:2px solid black;
+}
+.colorverde{
+    background-color: lightgreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+.colorazul{
+    background-color: lightblue;
+    font-family: serif;
+}
+.colorrojo{
+    background-color: red;
+    font-family: fantasy;
+}
