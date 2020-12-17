@@ -1,0 +1,6 @@
+#Nivel1 {
+    display: grid;
+    grid-template-columns: 20%; 
+    grid-template-rows: 50%
+}
+
