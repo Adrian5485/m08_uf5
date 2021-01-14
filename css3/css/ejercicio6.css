@@ -1,0 +1,25 @@
+div 
+{
+width: 100px;
+height: 100px;
+background: orange;
+-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+transition: width 2s;
+}
+div:hover
+{
+width: 300px;
+}
+#prueba
+{
+border-radius: 200px 200px;
+background:maroon;
+width: 100px;
+height:100px;
+-webkit-transition: height 2s; /* For Safari 3.1 to 6.0 */
+transition: height 2s;
+}
+#prueba:hover
+{
+height: 300px;
+}
