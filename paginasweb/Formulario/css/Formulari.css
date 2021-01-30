@@ -1,0 +1,46 @@
+html{
+    width:50%;
+    margin:auto;
+}
+h1{
+    color:green;
+    text-align:center;
+}
+.uno{
+    background-color: #FFB265;
+}
+
+.dos{
+    background-color: #72D476;
+}
+
+.tres{
+    background-color: #EFB5B5;
+}
+.tres>select{
+    height:25px;
+    background-color:rgb(228, 222, 222);
+}
+.cuatro{
+    background-color:#62CBDF;
+}
+.cinco{
+    background-color:#C6CACA;
+}
+.cinco>input{
+    width:10%;
+    height:25px;
+    background-color:rgb(228, 222, 222);
+    border:2px solid rgb(228, 222, 222);
+    border-radius:1px 1px;
+}
+
+.uno>#id_text{
+    width:80%;
+}
+.tamaño{
+    height:25px;
+}
+legend{
+    font-style:italic;
+}

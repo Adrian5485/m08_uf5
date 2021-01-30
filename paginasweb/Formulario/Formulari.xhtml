@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" href="../css/Formulari.css"/>
+    <head>
+        <title>Currículum</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="css/Formulari.css"/>
+    </head>
+    <body>
+        <h1>Curriculum</h1>
+        <form action="form.html" method="get" enctype="multipart/form-data">
+            <fieldset class="uno">
+                <legend>Informacion Basica</legend>
+                <label for="id_text">Nombre</label><br/>
+                <input type="text" id="id_text" name="n_text" class="tamaño" value="" placeholder="Input text"/>
+                <br/>
+                <br/>
+                <label for="id_number">Altura en centimetros</label><br/>
+                <input type="number" id="id_number" name="n_number" value="" />
+                <br/>
+                <br/>
+                <label for="id_email">Email</label><br/>
+                <input type="email" id="id_email" name="n_email" value="" class="tamaño" placeholder="tumail@dominio.com"/>
+                <br/>
+                <br/>
+                <label for="id_date">Fecha Nacimiento</label><br/>
+                <input type="date" id="id_date" name="n_date" value="2018-12-17"/>
+                <br/>
+            </fieldset>
+            <br/>
+            <fieldset class="dos">
+                <legend>Nacionalidad</legend>
+                <input type="radio" id="id_radio1" name="n_radio" value="es"/>Española
+                <input type="radio" id="id_radio2" name="n_radio" value="co"/>Comunitario(UE)
+                <input type="radio" id="id_radio3" name="n_radio" value="nco"/>No Comunitario
+            </fieldset>
+            <br/>    
+            <fieldset class="tres">
+                <legend>Estudios</legend>
+                    <select id="id_select" name="n_select">
+                        <option value="gm" >GM</option>
+                        <option value="eso">ESO</option>
+                        <option value="edpri" >Educación primaria</option>
+                        <option value="esun">Estudios universitarios</option>
+                </select>
+            </fieldset>
+            <br/>    
+            <fieldset class="cuatro">
+                <legend>Idiomas</legend>
+                <input type="checkbox" id="id_radio1" name="n_radio" value="cat"/>Catalan
+                <input type="checkbox" id="id_radio2" name="n_radio" value="cas"/>Castellano
+                <input type="checkbox" id="id_radio3" name="n_radio" value="ing"/>Ingles
+                <input type="checkbox" id="id_radio4" name="n_radio" value="chi"/>Chino
+            </fieldset>
+            <br/>
+            <fieldset class="cinco">
+                    <input role="button" type="submit" id="id_submit" name="n_submit" value="Enviar"/>
+                    <input type="reset" id="id_reset" name="n_reset" value="Cancelar"/>
+            </fieldset>        
+        </form>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+    comentaris externs
+-->
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>fieldset and legend</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+    </head>
+    <body>
+
+    <h1 >Formulario pruebas</h1>
+    <form action="form.html" method="get" enctype="multipart/form-data">
+
+             <fieldset >
+            <legend>Datos de entrada</legend>
+            <h1></h1>
+            <label for="id_text">Escribe tu nombre:</label>
+            <input type="text" id="id_text" name="n_text" value="" placeholder="Introduzca el texto aqui"/>
+            <br/>
+            <label for="id_number">Escribe tu DNI:</label>
+           <input type="number" id="id_number" name="n_number" value="2"/>
+           <br/>
+           <label for="id_email">Escribe tu email:</label>
+           <input type="email" id="id_email" name="n_email" value="adrian@gmail.com"/>
+            <br/>
+           <label for="id_url">Escribe una url:</label>
+           <input type="url" id="id_url" name="n_url" value="http://default"/>
+            <br/>
+           <label>Pon una opcion :</label>
+           <input type="radio" id="id_radio1" name="n_radio" value="a"/>Juan
+           <input type="radio" id="id_radio2" name="n_radio" value="c"/>Pepito
+           <input type="radio" id="id_radio3" name="n_radio" value="g"/>Pablo
+           <input type="radio" id="id_radio4" name="n_radio" value="t"/>Jorge
+            <br/>
+           <label>Pon mas de una opcion:</label>
+           <input type="checkbox" id="id_checkbox1" name="n_checkbox[]" value="a"/>Raúl
+           <input type="checkbox" id="id_checkbox2" name="n_checkbox[]" value="c"/>Pedro
+           <input type="checkbox" id="id_checkbox3" name="n_checkbox[]" value="g"/>Ismael
+           <input type="checkbox" id="id_checkbox4" name="n_checkbox[]" value="t"/>Cristo
+           <br/>
+           <label for="id_password">Escriba su contraseña:</label>
+            <input type="password" id="id_password" name="n_password"/>
+            <br/>
+            <label for="id_select">elige una opcion:</label>
+                <select id="id_select" name="n_select">
+                    <option value="default" >Elige una opcion</option>
+                    <option value="a">Adrián</option>
+                    <option value="c">Cristo</option>
+                    <option value="g">Ismael</option>
+                    <option value="t">Pablo</option>
+                </select>
+               
+ 
+
+    </fieldset> 
+    
+    <fieldset>
+            
+            <legend>enviar y cancelar</legend>
+
+            <h2>Enviar y Cancelar</h2>
+            <input type="submit" id="id_submit" name="n_submit" value="SUBMIT"/>
+            <input type="reset" id="id_reset" name="n_reset" value="RESET"/>
+
+           
+        </fieldset>
+   
+       
+    </form>
+    </body>
+</html>

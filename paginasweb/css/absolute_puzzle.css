@@ -1,0 +1,116 @@
+#todo
+{
+border:1px solid black;
+width:600px;
+height:600px;
+position: relative;
+}
+.fila1
+{
+background-color:#21c500;
+width: 395px;
+height: 95px;
+position:absolute;
+top:0px;
+}
+.fila2
+{
+background-color:#a8f500;
+width: 195px;
+height: 95px;
+position:absolute;
+top:0px;
+left:400px;
+}
+.fila3
+{
+background-color:black;
+width:195px;
+height:195px;
+position:absolute;
+top:100px;
+color:white;
+}
+.fila4
+{
+background-color:#21c500;
+width: 195px;
+height:295px;
+position:absolute;
+top:100px;
+right:200px;
+margin-right:5px;
+}
+.fila5
+{
+background-color:#a8f500;
+width: 195px;
+height: 95px;
+position:absolute; 
+top:100px;
+left:400px;
+}
+.fila6
+{
+background-color:#21c500;
+width: 195px;
+height: 95px;
+position:absolute; 
+top:200px;
+left:400px;
+}
+.fila7
+{
+background-color:#21c500;
+width: 195px;
+height: 95px;
+position:absolute; 
+top:300px;
+}
+.fila8
+{
+background-color:black;
+width: 195px;
+height: 195px;
+position:absolute; 
+top:300px;
+left:400px;
+color:white;
+}
+.fila9
+{
+background-color:black;
+width: 195px;
+height: 195px;
+position:absolute; 
+top:400px;
+color:white;
+}
+.fila10
+{
+background-color:#a8f500;
+width: 195px;
+height: 95px;
+position:absolute;
+top:400px;
+left:200px;
+}
+.fila11
+{
+background-color:#21c500;
+width: 195px;
+height: 95px;
+position:absolute;
+top:500px;
+left:200px;
+}
+.fila12
+{
+background-color:#a8f500;
+width: 200px;
+height: 100px;
+position:absolute;
+top:500px;
+left:400px;
+}
+
