@@ -1,0 +1,124 @@
+@font-face 
+{
+  font-family: ;
+  src: url("");
+}
+body
+{
+  background-image: url("../imagenes/Welcomehome.jpg");
+}
+h1
+{
+  font-family: , sans-serif; 
+}
+.container
+{
+  text-align:center;
+  background-color: #1e201f;
+}
+#titulo
+{
+  background-color:#343434;
+  background-image: url("../imagenes/logofallout.jpg");
+  height:200px;
+  width:100%;
+  margin-top:10px;
+}
+#soloh1
+{
+  color:  #ebf0ef;
+  font-size:100px;
+}
+.barra
+{
+  color:white;
+  background-color:#1e201f;
+  margin-top:15px;
+  margin-bottom:15px;
+  width:20%;
+  margin-right:50px;
+  height:80px;
+  font-size:15px;
+}
+.barra a
+{
+  font-size:20px;
+}
+#imagenleft
+{
+  width:100px;
+  height:100px;
+}
+#imagenright
+{
+  width:130px;
+  height:100px;
+}
+.rounded
+{
+  margin-top:10px;
+}
+#article1
+{
+  background-image: url("../imagenes/special.jpg");
+  background-size: 100% 100%;
+  margin-left:0;
+  margin-right:0;
+}
+article h3
+{
+  text-align:left;
+  margin-top:5px;
+  margin-left:5px;
+  color: #ebf0ef;
+  font-size:30px;     
+}
+#articlediv
+{
+  width:60%;
+  color:#ebf0ef;
+}
+#articlediv p
+{
+  display:inline-block;
+  text-align:left;
+  margin-left:5px;
+}
+.sliderglobal
+{
+  margin-top:15px;
+}
+.slider
+{
+  width:1110px;
+  height:500px;
+}
+#Izquierda 
+{
+  margin-top:10px;
+  width:45%;
+  color:white;
+  border-right:1px solid white;
+}
+#Derecha
+{
+  margin-top:10px;
+  width:45%;
+  color:white;
+}
+footer 
+{
+  margin-top:10px;
+  border-top:1px solid white;
+  margin-bottom:10px;
+}
+footer h4 
+{
+  color:white;
+}
+footer a:hover
+{ 
+  cursor: pointer;
+  display:inline-block;
+  color:white;
+}

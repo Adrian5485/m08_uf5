@@ -1,0 +1,7 @@
+@font-face{
+    font-family: Overseer;
+    src: url("../fonts/Overseer.otf");
+}
+*{
+    font-family: Overseer;
+}
